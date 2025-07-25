@@ -1,0 +1,24 @@
+.container {
+    width: 90%;
+    height: 60vh;
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kotak {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(to left, gray, skyblue);
+    text-align: center;
+    line-height: 150px;
+}
+
+@media (max-width:480px ) {
+    .container {
+        flex-direction: column;
+        gap: 5px;
+        height: auto;
+    }
+}
